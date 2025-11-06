@@ -1,0 +1,76 @@
+{
+    "telemetry.telemetryLevel": "off",
+    "window.zoomLevel": 1,
+    "editor.unicodeHighlight.allowedCharacters": {
+        "λ": true
+    },
+    "editor.unicodeHighlight.nonBasicASCII": false,
+
+    /*  Files, security etc  */
+    "files.autoSave": "onFocusChange",
+    "security.workspace.trust.untrustedFiles": "open",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.fontSize": 15,
+    "editor.fontFamily": "FiraCode Nerd Font",
+    "editor.lineHeight": 28,
+    "editor.semanticHighlighting.enabled": true,
+    "editor.unicodeHighlight.includeStrings": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    // "editor.renderWhitespace": "all",
+
+    /*  Terminal settings  */
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font",
+    "terminal.integrated.fontSize": 16,
+
+    /*  Other settings  */
+    "explorer.confirmDelete": false,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "files.insertFinalNewline": false,
+
+    /*  OCaml  */
+    "[ocaml]": {
+        "editor.insertSpaces": true,
+        "editor.formatOnSave": true
+    },
+
+    "[ocaml.interface]": {
+        "editor.insertSpaces": true,
+        "editor.formatOnSave": true
+    },
+
+    /* C++ */
+    "[cpp]": {
+         "editor.formatOnSave": true,
+    },
+    
+    "cmake.options.statusBarVisibility": "compact",
+    "workbench.colorTheme": "intellij-vscode-soft-dark-theme",
+
+    /* Python */
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": "ms-python.black-formatter",
+    },
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4 }",
+    "editor.minimap.enabled": false,
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+
+    /* Go */
+    "[go]": {
+        "editor.insertSpaces": true,
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "golang.go",
+    },
+
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmPasteNative": false,
+    "C_Cpp.clang_format_style": "",
+    "workbench.sideBar.location": "right",
+    "notebook.formatOnSave.enabled": true,
+    "notebook.output.scrolling": true,
+    
+}
